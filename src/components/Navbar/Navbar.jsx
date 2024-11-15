@@ -31,7 +31,7 @@ const NavBar = () => {
       <Container className="navbar-container">
         <Navbar.Brand to="/">
           <ion-icon name="bag"></ion-icon>
-          <h1 className="logo">E-COMMERCE</h1>
+          <h1 className="logo">Shopify</h1>
         </Navbar.Brand>
         {/* Media cart and toggle */}
         <div className="d-flex">
@@ -84,7 +84,7 @@ const NavBar = () => {
                 to="/"
                 onClick={() => setExpand(false)}
               >
-                <span className="nav-link-label">Home</span>
+                <span className="nav-link-label">HOME</span>
               </Link>
             </Nav.Item>
 
@@ -95,7 +95,7 @@ const NavBar = () => {
                 to="/shop"
                 onClick={() => setExpand(false)}
               >
-                <span className="nav-link-label">Shop</span>
+                <span className="nav-link-label">SHOP</span>
               </Link>
             </Nav.Item>
 
@@ -106,7 +106,7 @@ const NavBar = () => {
                 to="/cart"
                 onClick={() => setExpand(false)}
               >
-                <span className="nav-link-label">Cart</span>
+                <span className="nav-link-label">CART</span>
               </Link>
             </Nav.Item>
 
@@ -117,7 +117,7 @@ const NavBar = () => {
                 to="/login"
                 onClick={() => setExpand(false)}
               >
-                <span className="nav-login"><button>Login</button></span>
+                <span className="nav-login"><button>LOGIN</button></span>
               </Link>
             </Nav.Item>
             <Nav.Item className="expanded-cart">

@@ -10,9 +10,9 @@ const Footer = () => {
             <Col md={3} sm={5} className='box'>
               <div className="logo">
                   <ion-icon name="bag"></ion-icon>
-                  <h1>E-COMMERCE</h1>
+                  <h1>Shopify</h1>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor libero id et, in gravida. Sit diam duis mauris nulla cursus. Erat et lectus vel ut sollicitudin elit at amet.</p>
+              <p>aplikasi web e-commerce yang dirancang untuk memberikan pengalaman belanja online yang menyenangkan dan mudah digunakan. Aplikasi ini memungkinkan pengguna untuk menjelajahi berbagai produk-produk, menambahkannya ke keranjang belanja, dan melakukan pembayaran secara aman.</p>
             </Col>
             <Col md={3} sm={5} className='box'>
               <h2>About Us</h2>
@@ -38,7 +38,7 @@ const Footer = () => {
               <h2>Contact Us</h2>
               <ul>
                 <li>Jakarta Barat Indonesia</li>
-                <li>Email: ecommerce.help@gmail.com</li>
+                <li>Email: shopify.help@gmail.com</li>
                 <li>Phone: +62 859 2692 5727</li>
               </ul>
             </Col>

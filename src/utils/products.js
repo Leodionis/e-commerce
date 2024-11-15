@@ -36,26 +36,26 @@ import watchSlide from "../Images/watch-07.png";
 export const SliderData = [
   {
       id: 1,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+      title: "Diskon 30% untuk Belanja Pertama Anda",
+      desc: "Cukup lakukan pendaftaran akun dan gunakan kode promo FIRST30 saat checkout. Cepat, promo ini terbatas hanya untuk pelanggan baru!",
       cover: sofaSlide,
   },
   {
       id: 2,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+      title: "Diskon 30% untuk Belanja Pertama Anda",
+      desc: "Cukup lakukan pendaftaran akun dan gunakan kode promo FIRST30 saat checkout. Cepat, promo ini terbatas hanya untuk pelanggan baru!",
       cover: phone08,
   },
   {
       id: 3,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+      title: "Diskon 30% untuk Belanja Pertama Anda",
+      desc: "Cukup lakukan pendaftaran akun dan gunakan kode promo FIRST30 saat checkout. Cepat, promo ini terbatas hanya untuk pelanggan baru!",
       cover: wireless01,
   },
   {
       id: 4,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+      title: "Diskon 30% untuk Belanja Pertama Anda",
+      desc: "Cukup lakukan pendaftaran akun dan gunakan kode promo FIRST30 saat checkout. Cepat, promo ini terbatas hanya untuk pelanggan baru!",
       cover: watchSlide,
   },
 ];
@@ -63,27 +63,18 @@ export const SliderData = [
 export const serviceData = [
   {
     icon: <ion-icon name="car"></ion-icon>,
-    title: "Free Shipping",
-    subtitle: "Lorem ipsum dolor sit amet.",
-    bg: "#fdefe6",
-  },
-  {
-    icon: <ion-icon name="card"></ion-icon>,
-    title: "Safe Payment",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    title: "Gratis Ongkos Kirim",
     bg: "#ceebe9",
   },
   {
-    icon: <ion-icon name="shield-half-outline"></ion-icon>,
-    title: "Secure Payment",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    icon: <ion-icon name="card"></ion-icon>,
+    title: "Pembayaran Aman",
     bg: "#e2f2b2",
   },
   {
-    icon: <ion-icon name="headset"></ion-icon>,
-    title: " Back Guarantee",
-    subtitle: "Lorem ipsum dolor sit amet.",
-    bg: "#d6e5fb",
+    icon: <ion-icon name="shield-half-outline"></ion-icon>,
+    title: "Garansi Kembali",
+    bg: "#ceebe9",
   },
 ];
 
@@ -93,7 +84,7 @@ export const discoutProducts = [
     productName: "Stone and Beam Westview ",
     imgUrl: productImg01,
     category: "sofa",
-    price: 193,
+    price: 270.000,
     discount:30,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -112,7 +103,7 @@ export const discoutProducts = [
     productName: "Rivet Bigelow Modern ",
     imgUrl: productImg02,
     category: "sofa",
-    price: 253,
+    price: 250.000,
     discount:20,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -135,7 +126,7 @@ export const discoutProducts = [
     productName: "Baltsar Chair",
     imgUrl: productImg08,
     category: "chair",
-    price: 89,
+    price: 150.000,
     discount:15,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -295,7 +286,7 @@ export const products = [
     productName: "Rivet Bigelow Modern ",
     imgUrl: productImg02,
     category: "sofa",
-    price: 253,
+    price: 253.000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
